@@ -38,7 +38,8 @@
 }
 
 .away {
-  background-color: #af750a;
+  background-color: gold;
+  color: black;
 }
 
 .home__name,
@@ -50,6 +51,10 @@
   text-transform: uppercase;
   font-size: 3rem;
   padding: 2rem;
+}
+
+.quarter__title {
+  padding-top: 49%;
 }
 
 .home__score,
@@ -106,6 +111,10 @@
   border: 1px solid white;
 }
 
+.quarter__value {
+  margin-bottom: 5%;
+}
+
 .buttons {
   width: 50%;
   margin: 0 auto;
@@ -120,4 +129,11 @@
 .change_qtr {
   margin: 1rem;
   border-radius: 4px;
+}
+
+.change_qtr {
+  background: gold;
+  color: black;
+  margin-top: 1.5%;
+  margin-bottom: 10%;
 }
